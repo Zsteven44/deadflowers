@@ -1,0 +1,199 @@
+
+
+/*////////////////////
+//                  //
+//  Social Navbar   //
+//                  //
+////////////////////*/
+
+.social-media-nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.social-media-nav {
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    padding: 40px 0px 40px 0px;
+    font-size:32px;
+}
+
+.social-media-nav a:visited, a:active, a:link {
+    color:white;
+    text-decoration:none;
+    transition: all 0.5s ease 0s;
+}
+.social-media-nav a:hover, a:focus {
+    color:red;
+    text-decoration:none;
+    transition: all 0.5s ease 0s;
+}
+
+/*////////////////////
+//                  //
+//  Music Navbar    //
+//                  //
+////////////////////*/
+
+.music-player-nav {
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+    padding:50px 0px 0px 0px;
+}
+
+.music-player-nav iframe {
+    border: 0;
+    width: 100%;
+    height: 42px;
+}
+
+
+/*////////////////////
+//                  //
+//  home            //
+//                  //
+////////////////////*/
+
+.home-container {
+    margin-top:0px;
+    background-color:black;
+    background-image: url("../img/deadflowerslogo3.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: static;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+
+.home-section-1 {
+    margin:650px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+    color:white;
+    position: absolute;
+    width: 100%;
+}
+
+
+.home-section-2 {
+    margin: 100px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    background: black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+/*////////////////////
+//                  //
+//  Misc.           //
+//                  //
+////////////////////*/
+
+
+.container-fluid {
+    padding: 0px;
+    margin:0px;
+    background-color:black;
+}
+
+
+@font-face {
+    font-family: font1;
+    src: url('fonts/ToxTypewriter.ttf');
+}
+
+
+/*////////////////////////
+//                      //
+//  Mobile Devices      //
+//                      //
+////////////////////////*/
+
+@media only screen
+    and (max-device-width: 770px)
+    and (orientation: portrait) {
+
+    /* define mobile specific styles come here */
+    .home-container {
+        margin-top:0px;
+        background-image: url("../img/deadflowerslogo3.jpg");
+        background-repeat:no-repeat;
+        background-size: 100%;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        z-index: 10;
+
+    }
+
+    .home-section-1 {
+        margin:200px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+        text-align:center;
+        background:black;
+        color:white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+     }
+
+     .social-media-nav-item{
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+
+    .social-media-nav {
+        padding: 40px 0 40px 0px;
+        font-size:50px;
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen
+    and (max-device-width: 770px)
+    and (orientation: landscape) {
+
+    .home-container {
+        margin-top:0px;
+        background-image: url("../img/deadflowerslogo3.jpg");
+        background-repeat:no-repeat;
+        background-size: 100%;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        z-index: 10;
+
+    }
+
+    .home-section-1 {
+        margin:200px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+        text-align:center;
+        background:black;
+        color:white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+     }
+
+     .social-media-nav-item{
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+
+    .social-media-nav {
+        padding: 40px 0 40px 0px;
+        font-size:35px;
+        margin-bottom: 10px;
+    }
+}
+
