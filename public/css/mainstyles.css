@@ -165,12 +165,18 @@ html,body
     and (orientation: portrait) {
 
     /* define mobile specific styles come here */
+    .band-title-img {
+        margin-left:auto;
+        margin-right:auto;
+        width: 100%;
+        height: auto;
+    }
+
+
     .home-container {
-        margin-top:0px;
-        background-image: url("../img/deadflowerslogo3.jpg");
-        background-repeat:no-repeat;
+        margin-top:150px;
         background-size: 100%;
-        position: fixed;
+        position: relative;
         width: 100%;
         height: 100%;
         background-position: center;
@@ -179,12 +185,12 @@ html,body
     }
 
     .home-section-1 {
-        margin:200px 0px 0px 0px;
+        margin:100px 0px 0px 0px;
         padding:0px 0px 0px 0px;
         text-align:center;
         background:black;
         color:white;
-        position: fixed;
+        position: relative;
         bottom: 0;
         width: 100%;
      }
@@ -192,6 +198,8 @@ html,body
      .social-media-nav-item{
         margin-left: 10px;
         margin-right: 10px;
+        width: 50%;
+        height:50%;
      }
 
     .social-media-nav {
@@ -211,7 +219,7 @@ html,body
         background-image: url("../img/deadflowerslogo3.jpg");
         background-repeat:no-repeat;
         background-size: 100%;
-        position: fixed;
+        position: static;
         width: 100%;
         height: 100%;
         background-position: center;
@@ -225,8 +233,7 @@ html,body
         text-align:center;
         background:black;
         color:white;
-        position: fixed;
-        bottom: 0;
+        position: relative;
         width: 100%;
      }
 
